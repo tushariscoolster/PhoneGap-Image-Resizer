@@ -7,7 +7,9 @@
  * 
  * Raanan Weber, webXells GmbH http://www.webxells.com
  */
-
+ var exec = require('cordova/exec'),
+    cordova = require('cordova');
+    
 var ImageResizer = function() {
 
 };
@@ -120,3 +122,6 @@ cordova.addConstructor(function() {
 	window.plugins.imageResizer = window.imageResizer;
 	console.log("Image Resizer Registered under window.imageResizer");
 });
+
+var imageResizer = new ImageResizer();
+module.exports = imageResizer;
