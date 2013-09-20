@@ -25,8 +25,8 @@
        
       </config-file>
 
-      <source-file src="Android/com/webXells/ImageResizer/ImageResizePlugin.java" target-dir="src/com/webXells/ImageResizer/" />
-      <js-module src="imageresize.js" name="imageresizer">
+      <source-file src="src/Android/com/webXells/ImageResizer/ImageResizePlugin.java" target-dir="src/com/webXells/ImageResizer/" />
+      <js-module src="www/imageresize.js" name="imageresizer">
           <clobbers target="plugins.imageResizer" />
       </js-module>
     </platform>
@@ -42,15 +42,15 @@
         </feature>
       </config-file>
         
-      <source-file src="iPhone/ImageResize.m" />
-      <source-file src="iPhone/NSData+Base64.m" />
-      <source-file src="iPhone/UIImage+Scale.m" />
+      <source-file src="src/ios/ImageResize.m" />
+      <source-file src="src/ios/NSData+Base64.m" />
+      <source-file src="src/ios/UIImage+Scale.m" />
       
-      <header-file src="iPhone/ImageResize.h" />
-      <header-file src="iPhone/NSData+Base64.h" />
-      <header-file src="iPhone/UIImage+Scale.h" />
+      <header-file src="src/ios/ImageResize.h" />
+      <header-file src="src/ios/NSData+Base64.h" />
+      <header-file src="src/ios/UIImage+Scale.h" />
       
-      <js-module src="imageresize.js" name="imageresizer">
+      <js-module src="www/imageresize.js" name="imageresizer">
         <clobbers target="plugins.imageResizer" />
     </js-module>
 
