@@ -36,7 +36,7 @@
 
         
     <!-- Cordova >= 2.3 -->
-      <config-file target="config.xml" parent="/">
+      <config-file target="config.xml" parent="/*">
         <feature name="ImageResizer">
           <param name="ios-package" value="ImageResizer"/>
         </feature>
