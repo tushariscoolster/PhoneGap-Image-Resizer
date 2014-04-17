@@ -51,7 +51,7 @@
       <header-file src="src/ios/UIImage+Scale.h" />
       
       <js-module src="www/imageresize.js" name="imageresizer">
-        <clobbers target="plugins.imageResizer" />
+        <clobbers target="com.webXells.imageResizer" />
     </js-module>
 
     </platform>
